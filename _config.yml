@@ -6,10 +6,10 @@
 carpentry: "swc"
 
 # Overall title for pages.
-title: "Workshop Title"
+title: "Curso Integral para el Análisis de Datos de Genomica y Transcriptomica 2018"
 
 # Contact email address.
-email: lessons@software-carpentry.org
+email: cursos_usmb@ibt.unam.mx
 
 #------------------------------------------------------------
 # Generic settings (should not need to change).
@@ -20,22 +20,12 @@ kind: "workshop"
 
 # Magic to make URLs resolve both locally and on GitHub.
 # See https://help.github.com/articles/repository-metadata-on-github-pages/.
-repository: <USERNAME>/<PROJECT>
+repository: <vjimenez9>/<18-01-15>
 
 # Sites.
-amy_site: "https://amy.software-carpentry.org/workshops"
-lc_site: "https://librarycarpentry.github.io/"
-dc_site: "http://datacarpentry.org"
-swc_github: "https://github.com/swcarpentry"
-swc_site: "https://software-carpentry.org"
-swc_pages: "https://swcarpentry.github.io"
-template_repo: "https://github.com/swcarpentry/styles"
-example_repo: "https://github.com/swcarpentry/lesson-example"
-example_site: "https://swcarpentry.github.com/lesson-example"
-workshop_repo: "https://github.com/swcarpentry/workshop-template"
-workshop_site: "https://swcarpentry.github.io/workshop-template"
-training_site: "https://swcarpentry.github.io/instructor-training"
-swc_installer: "https://github.com/swcarpentry/windows-installer/releases/download/v0.3/SWCarpentryInstaller.exe"
+workshop_repo: "https://github.com/vjimenez9/18-01-15-uusmd/"
+workshop_site: "http://www.uusmb.unam.mx/curso/"
+
 
 # Surveys.
 swc_pre_survey: "https://www.surveymonkey.com/r/swc_pre_workshop_v1?workshop_id="
@@ -44,7 +34,7 @@ dc_pre_survey: "https://www.surveymonkey.com/r/dcpreworkshopassessment?workshop_
 dc_post_survey: "https://www.surveymonkey.com/r/dcpostworkshopassessment?workshop_id="
 
 # Start time in minutes (0 to be clock-independent, 540 to show a start at 09:00 am)
-start_time: 0
+start_time: 9:00 am
 
 # Specify that things in the episodes collection should be output.
 collections:
