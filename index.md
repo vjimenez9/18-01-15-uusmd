@@ -46,12 +46,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </iframe>
 {% endif %}
 
-<h4>This is the workshop template. Delete these lines and use it to customize your own website.
-If you are running a self-organized workshop or have not put in a workshop request yet, please also fill in 
-<a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know about your workshop
-and our administrator may contact you if we need any extra information.</h4>
-
-<h2 id="general">General Information</h2>
+<h2 id="general">Informaci&oacute;n General</h2>
 
 {% comment %}
   INTRODUCTION
@@ -68,10 +63,15 @@ and our administrator may contact you if we need any extra information.</h4>
 {% endif %}
 
 {% comment %}
-  AUDIENCE
+  AUDIENCIA
 
-  Explain who your audience is.  (In particular, tell readers if the
-  workshop is only open to people from a particular institution.
+  Audiencia con conocimientos de biología y conocimientos o interés en biología molecular, genómica y bioinformática.
+Se extenderá constancia de participación a los asistentes, que hayan concluido su proceso de inscripción,
+realizado su pago y tengan al menos 80% de asistencia.
+ 
+La primer semana, es opcional si quieren traer su computadora personal o no.
+La segunda semana, no es necesario que traigan computadora, ya que el curso se imparte en las terminales de la licenciatura conectadas a nuestro propio servidor, donde ya están instalados todos los paquetes y programa que revisaremos.
+
 {% endcomment %}
 {% if page.carpentry == "swc" %}
   {% include sc/who.html %}
