@@ -5,7 +5,7 @@ venue: "Unidad Universitaria de Secuenciacion Masiva y Bioinformatica"  # brief 
 address: "Av. universidad 2001. Ed. de la Licenciatura en ciencias genomicas UNAM"  # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "MX"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "es"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: "18.983907,-99.234996"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
+latlng: "18.983168,-99.235296"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
 humandate: "Enero 15 al 24, 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "10:00 am a 18:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2018-01-08      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
@@ -63,6 +63,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% endif %}
 
 {% comment %}
+  
   AUDIENCIA
 
   Audiencia con conocimientos de biología y conocimientos o interés en biología molecular, genómica y bioinformática.
